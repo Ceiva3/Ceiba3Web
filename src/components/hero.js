@@ -19,7 +19,7 @@ export default function Hero() {
           paddingRight: "400px",
         }}
       >
-        Your Digital Plot, Your Real Impact
+        Tu parcela digital, Tu impacto en la vida real
       </h1>
       <p
         className="lead"
@@ -29,9 +29,7 @@ export default function Hero() {
           paddingTop: "15px",
         }}
       >
-        Your digital plot of land is not just a digital asset, it's a
-        commitment to the planet. We take care of your trees while you enjoy
-        the positive impact you're making.
+        Tu parcela de tierra digital no es solo un activo digital, es un compromiso con el planeta. Nosotros nos encargamos de tus árboles mientras tú disfrutas del impacto positivo que estás generando.
       </p>
       <div
         className="text-center"
@@ -42,18 +40,20 @@ export default function Hero() {
           paddingBottom: "15px",
         }}
       >
-        <button 
-          type="button" 
-          className="btn btn-primary btn-lg"
-          style={{
-            backgroundColor:"#1789E1",
-            transition: "background-color 0.3s",
-          }} 
-          onMouseEnter={(e) => e.target.style.backgroundColor = "#0f70ba"}
-          onMouseLeave={(e) => e.target.style.backgroundColor = "#1789E1"}
-        >
-          Explore Your Plot
-        </button>
+        <a href="/map">
+          <button 
+            type="button" 
+            className="btn btn-primary btn-lg"
+            style={{
+              backgroundColor:"#1789E1",
+              transition: "background-color 0.3s",
+            }} 
+            onMouseEnter={(e) => e.target.style.backgroundColor = "#0f70ba"}
+            onMouseLeave={(e) => e.target.style.backgroundColor = "#1789E1"}
+          >
+            Explora tu parcela
+          </button>
+        </a>
 
       </div>
     </div>

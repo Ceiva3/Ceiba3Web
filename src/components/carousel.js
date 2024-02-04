@@ -20,43 +20,44 @@ export default function MyCarousel() {
     <Carousel ref={carouselRef} interval={20000} touch={false}>
       <Carousel.Item>
         <Image
-          src={'/1.webp'} 
+          src={"/1.webp"}
           style={{
-            height: '75vh',
-            objectFit: 'cover',
-            display: 'block',
+            height: "75vh",
+            objectFit: "cover",
+            display: "block",
           }}
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h3>Equipo de Ángulo Ambiental</h3>
+          <p>Comenzando reforestación</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          src={'/3.webp'} 
+          src={"/3.webp"}
           style={{
-            height: '75vh',
-            objectFit: 'cover',
-            display: 'block',
+            height: "75vh",
+            objectFit: "cover",
+            display: "block",
           }}
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h3>Equipo Dev de Ceiba3</h3>
+          <p>Equipo de desarrolladores de Ceiba3</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={'/2.webp'} 
+        <Image
+          src={"/2.webp"}
           style={{
-            height: '75vh',
-            objectFit: 'cover',
-            display: 'block',
+            height: "75vh",
+            objectFit: "cover",
+            display: "block",
           }}
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h3>Equipo de Ángulo Ambiental</h3>
+          <p>Comenzando reforestación</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

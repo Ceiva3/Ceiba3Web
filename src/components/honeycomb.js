@@ -3,7 +3,7 @@ import Hexagon from './hexagon';
 
 const Honeycomb = () => {
   return (
-    <div className="honeycomb"> 
+    <div className="honeycomb" > 
       <div style={{ position: 'absolute', left: "0px", top: "590px", padding: "30px", }}>
         <Hexagon/>
       </div>

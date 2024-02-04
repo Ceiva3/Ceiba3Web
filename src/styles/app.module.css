@@ -7,13 +7,6 @@
   min-height: 100vh;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Toma el 100% de la altura de la ventana */
-}
-
 .honeycombContainer {
   width: 100%; /* Toma el 100% del ancho disponible */
   height: 100%; /* Toma el 100% del alto disponible */
