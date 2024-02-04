@@ -15,8 +15,6 @@
 }
 
 .honeycombContainer {
-  padding: 625px;
-  padding-top: 100px;
   width: 100%; /* Toma el 100% del ancho disponible */
   height: 100%; /* Toma el 100% del alto disponible */
   display: grid;
