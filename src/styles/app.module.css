@@ -7,6 +7,24 @@
   min-height: 100vh;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Toma el 100% de la altura de la ventana */
+}
+
+.honeycombContainer {
+  padding: 625px;
+  padding-top: 100px;
+  width: 100%; /* Toma el 100% del ancho disponible */
+  height: 100%; /* Toma el 100% del alto disponible */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Número de columnas */
+  justify-content: center;
+  align-items: center;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

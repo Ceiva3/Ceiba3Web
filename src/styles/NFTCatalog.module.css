@@ -1,0 +1,51 @@
+/* NFTCatalog.module.css */
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .details {
+    padding: 10px;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .price {
+    color: #666;
+  }
+  
+  .buyButton {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .buyButton:hover {
+    background-color: #0056b3;
+  }
+  

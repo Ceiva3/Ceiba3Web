@@ -68,8 +68,8 @@ export const Navigation = () => {
               priority
               src="/logo.webp"
               alt="Ceiva3"
-              width="60"
-              height="60"
+              width="65"
+              height="65"
               className="d-inline-block align-text-top"
             />
           </Link>
